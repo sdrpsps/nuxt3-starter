@@ -15,3 +15,9 @@
 - [x] 集成 NaiveUI
 
 - [x] 集成 Pinia
+
+## 数据库迁移
+
+```bash
+npx prisma migrate dev --name init --schema server/database/schema.prisma 
+```
